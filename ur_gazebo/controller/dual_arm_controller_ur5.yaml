@@ -1,4 +1,4 @@
-right_arm_manipulator:
+ur5_arm_right:
   type: position_controllers/JointTrajectoryController
   joints:
       - right_shoulder_pan_joint
@@ -30,6 +30,7 @@ joint_group_position_controller:
       - right_wrist_2_joint
       - right_wrist_3_joint
 
+
 right_gripper:
   type: position_controllers/JointTrajectoryController
   joints:
@@ -42,7 +43,7 @@ right_gripper:
   state_publish_rate:  25
   action_monitor_rate: 10
 
-left_arm_manipulator:
+ur5_arm_left:
   type: position_controllers/JointTrajectoryController
   joints:
       - left_shoulder_pan_joint
